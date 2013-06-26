@@ -1,4 +1,4 @@
-OpenMP_Samples
+OpenMP_Demos
 ==============
 
 Samples containing OpenMP C code for parallel programming.  
