@@ -49,7 +49,7 @@ int main() {
 		
 	// Test framework that sweeps the number of threads and times each ru
 	double start_time, run_time;
-	int num_threads = omp_get_max_threads();	
+	int num_threads = 1;	
 	for(int i=1; i<=num_threads; i++) {
 		omp_set_num_threads(i);		
 		start_time = omp_get_wtime();
